@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  --swiper-theme-color: #fff;
+  color: #302f2f;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+}
