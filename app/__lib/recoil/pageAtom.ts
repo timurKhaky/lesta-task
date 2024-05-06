@@ -1,8 +1,8 @@
 import { atom } from "recoil";
 
-const paginationAtom = atom<number>({
-  key: "paginationAtom",
+const pageAtom = atom<number>({
+  key: "pageAtom",
   default: 1,
 });
 
-export default paginationAtom;
+export default pageAtom;

@@ -45,7 +45,6 @@ const dataSortedSelector = selector<any[]>({
     const sortOrder = get(sortAtom);
     const filter = get(filterAtom);
     const data = get(dataAtom);
-    console.log("sortOrder", sortOrder);
 
     const dataFiltered = filterData(data ?? [], filter);
     const dataSorted = sortData(dataFiltered ?? [], sortOrder);
