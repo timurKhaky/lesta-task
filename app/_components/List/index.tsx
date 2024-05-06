@@ -9,7 +9,6 @@ type TProps = { loading: boolean; error: any };
 
 export default function List({ loading, error }: TProps) {
   const data = useRecoilValue(dataVisibleSelector);
-  console.log(data);
 
   if (loading) {
     return (
